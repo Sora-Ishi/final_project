@@ -1,6 +1,8 @@
 $(function(){
     $(".START").click(function(){
-        $(this).fadeOut(2000)
+        $(this).fadeOut(2000)(function(){
+        window.location.href = "https://sora-ishi.github.io/final_project/fight1.html";
+      });
     });
 });
 
