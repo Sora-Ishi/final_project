@@ -5,7 +5,7 @@ function run(){
 }
 
 function find(){
-  window.alert("この街には野良猫が多い！おばさんの猫を探し、捕まえろ！");
+  window.alert("全ての猫を捕まえろ！（猫をクリックする）");
 }
 
 function mushi(){
