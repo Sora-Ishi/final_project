@@ -77,3 +77,19 @@ $(function() {
     return false;
   });
 });
+
+function go(){
+  for(var i=1;i<2;i++){
+  var un = new Array("見つかった…","見つからなかった！",);
+  var find = un[Math.floor(Math.random()*un.length)];
+  var i;
+  alert(find);
+  if (find == "見つからなかった！"){alert("おめでとう！");
+  location.href = "https://sora-ishi.github.io/final_project/clear.html";
+}
+  else{
+    alert("先生に怒られたショックでタケシは帰宅した。");
+    location.href = "https://sora-ishi.github.io/final_project/project.html";
+  }
+}
+}
