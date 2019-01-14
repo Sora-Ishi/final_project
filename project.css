@@ -7,3 +7,14 @@ div#title {
 div#back {
 	background-color:#ffffff;
 }
+
+.relative {
+  position: relative;
+  width: 300px;
+}
+
+.absolute {
+  position: absolute;
+ right: 30px;
+ bottom: 30px;
+}
