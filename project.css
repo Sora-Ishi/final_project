@@ -9,12 +9,11 @@ div#back {
 }
 
 .relative {
-  position: relative;
-  width: 100%;
+  position: center;
 }
 
 .absolute {
   position: absolute;
-left: 50%;
- bottom: 30px;
+  left: 50%;
+ bottom: 150px;
 }
