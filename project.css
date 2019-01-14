@@ -10,6 +10,7 @@ div#back {
 
 .relative {
   position: relative;
+  width: 300px;
 }
 
 .absolute {
