@@ -14,7 +14,6 @@ div#back {
 }
 
 .absolute {
-  position: absolute;
- left: 100px;
+  position: center;
  bottom: 30px;
 }
