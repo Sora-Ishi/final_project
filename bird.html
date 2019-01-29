@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://sora-ishi.github.io/final_project/project.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	  <script src="https://sora-ishi.github.io/final_project/project.js"></script>
+  <title>小鳥を巣へ戻せ</title>
+
+  </head>
+
+  <body>
+<center>
+	<br><br><br>
+	<div id="title"><font size="50">学校敷地内に無事入ったが<br>チャイムが鳴るまで<strong>30秒</strong>しかない！</font></div>
+		<div id="title"><font size="50">しかし、巣から落ちたヒナがいた！</font></div>
+	
+	<br>
+  <input type="button" value="巣に戻してやる" onclick="back1()" />
+  <input type="button" value="無視して進む" onclick="mushi2()" /><br><br>
+	
+	<style>
+#fruits {
+  width:800px; height:100px; margin:0px; background-color:#a0522d;
+		}
+	
+#dropbox {
+   width:800; height:100; background-color:#cd853f; 
+border:solid 40px #f4a460; 
+  border-radius: 200px 200px 200px 200px / 100px 100px 100px 100px;
+  -khtml-user-drag: element;
+}
+</style>
+	
+<div class="relative">
+<img src="https://sora-ishi.github.io/final_project/illustration/tree_seichou08.png"/>	
+</div>
+<div id="dropbox" ondragover="f_dragover(event)" ondrop="f_drop(event)" class="absolute">
+</div>
+
+<div id="fruits" ondragover="f_dragover(event)" ondrop="f_drop(event)">
+<img src="https://sora-ishi.github.io/final_project/illustration/maruitori_white.png" width=100 id="bird_white" alt="白鳥" draggable="true" ondragstart="f_dragstart(event)">
+<img src="https://sora-ishi.github.io/final_project/illustration/maruitori_yellow.png" width=100 id="bird_yellow" alt="黄鳥" draggable="true" ondragstart="f_dragstart(event)">
+<img src="https://sora-ishi.github.io/final_project/illustration/maruitori_skyblue.png" width=100 id="bird_skyblue" alt="空鳥" draggable="true" ondragstart="f_dragstart(event)">
+<img src="https://sora-ishi.github.io/final_project/illustration/maruitori_palepink.png" width=100 id="bird_palepink" alt="桜鳥" draggable="true" ondragstart="f_dragstart(event)">
+<img src="https://sora-ishi.github.io/final_project/illustration/maruitori_yellowgreen.png" width=100 id="bird_yellowgreen" alt="黄緑鳥" draggable="true" ondragstart="f_dragstart(event)">
+<img src="https://sora-ishi.github.io/final_project/illustration/maruitori_red.png" width=100 id="bird_red" alt="赤鳥" draggable="true" ondragstart="f_dragstart(event)">
+<img src="https://sora-ishi.github.io/final_project/illustration/maruitori_purple.png" width=100 id="bird_purple" alt="紫鳥" draggable="true" ondragstart="f_dragstart(event)">
+</div>
+	
+	
+</center>
+</body>
+
+</html>
+

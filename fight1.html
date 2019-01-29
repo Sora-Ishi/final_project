@@ -7,7 +7,7 @@
   <title>不良を倒せ！</title>
 
   </head>
- 
+
  <body>
 
 	  <center>
@@ -15,13 +15,16 @@
 	<h1>不良が現れた！</h1><br>
 		  <input type="button" value="戦う" onclick="fight()" /><input type="button" value="逃げる" onclick="run()" /><br><br>
 
-<progress id="hp" value="100" max="100"></progress>
+Furyou HP<progress id="hp" value="100" max="100"></progress>
 <br><br>
 
-<button onclick="hit();"><img src="https://sora-ishi.github.io/final_project/illustration/furyo_shounen-1.png" width="350"></button>
-
+<div class="relative">
+<img src="https://sora-ishi.github.io/final_project/illustration/13199941_p0_master1200.jpg" />
+<img onclick="hit();" src="https://sora-ishi.github.io/final_project/illustration/furyo_shounen-1.png" width="350" class="absolute">
+</div>
+		  
 	  </center>
 
 </body>
- 
+
 </html>
